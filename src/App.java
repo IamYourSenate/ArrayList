@@ -47,30 +47,5 @@ public class App {
 
 
         System.out.println(countries.equals(cities));
-
-        List<Double> digits = new ArrayList<>(100);
-
-        for (int i = 0;i < 100; i++){
-            digits.add(i,0+10*(Math.random()));
-
-
-        }
-        System.out.println(digits);
-
-        public Object cloneArr(){
-                ArrayList<?> v = new (ArrayList<?>);
-                v.elementData = Arrays.copyOf(elementData, size);
-                v.modCount = 0;
-                return v;
-
-        }
-
-
     }
-
-
-
-
-
-
 }
